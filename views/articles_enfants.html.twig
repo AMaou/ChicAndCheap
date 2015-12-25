@@ -17,7 +17,7 @@
             {% for article in articles_enfants %}
                 <tr>
                     <td><a href="/article/{{ article.code }}">{{ article.libelle }}</a></td>
-                     <td>{{ article.prix }}</td>
+                     <td>{{ article.prix}}</td>
                      <td><img class="img-responsive" style="border-radius: 50px; border:4px solid white; width:100px; height:100px; box-shadow: 1px 1px 10px #555;" src="{{ app.request.basepath }}/images/{{ article.code }}.jpg" alt="LogoChic "/></td>
                     <td> <button type="button" class="btn btn-default" aria-label="Left Align">
   <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
